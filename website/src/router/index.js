@@ -24,6 +24,11 @@ const routes = [
     name:"Bestallningar",
     component: () => import("../views/bestallningar.vue")
   },
+  {
+    path:"/omoss",
+    name:"Omoss",
+    component: () => import("../views/Info.vue")
+  },
 ];
 
 const router = new VueRouter({
