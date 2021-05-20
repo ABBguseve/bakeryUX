@@ -12,7 +12,7 @@ export default {
   components: {
     StaffCards
   },
-  name: "info",
+  name: "Omoss",
 }
 </script>
 
