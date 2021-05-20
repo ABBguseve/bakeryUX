@@ -1,6 +1,6 @@
 <template>
   <div class="form">
-      <h1>Bakeriet</h1>
+      <h1>Logga In</h1>
         <div>
             <v-text-field
             class="formInp"
@@ -44,7 +44,6 @@ export default {
     --primary: #F5C96A
 }
 .form{
-    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -67,5 +66,6 @@ export default {
     color: var(--primary);
     font-size: 56px;
     font-weight: lighter;
+    margin-bottom: 10px;
 }
 </style>
