@@ -6,25 +6,25 @@
       <v-btn
         class="navBtn text-capitalize"
         plain
-        to="/main"
+        to="/"
         color="black"
       >Start</v-btn>
       <v-btn
         class="navBtn text-capitalize"
         plain
-        to="/main"
+        to="/varor"
         color="black"
       >Varor</v-btn>
       <v-btn
         class="navBtn text-capitalize"
         plain
-        to="/main"
+        to="/best"
         color="black"
       >Beställningar</v-btn>
       <v-btn
         class="navBtn text-capitalize"
         plain
-        to="/main"
+        to="/omoss"
         color="black"
       >Om oss</v-btn>
       <v-btn
@@ -32,7 +32,6 @@
         rounded
         depressed
         small
-        to="/main"
         color="primary"
       >Logga in</v-btn>
     </v-toolbar>
