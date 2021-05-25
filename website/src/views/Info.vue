@@ -1,7 +1,11 @@
 <template>
-
-  <StaffCards>
-  </StaffCards>
+  <div>
+    <h2 style="font-family: 'Lobster', cursive; width: 100%; text-align: center">Personal</h2>
+    <StaffCards>
+    </StaffCards>
+  </div>
+  
+  
   
 </template>
 
