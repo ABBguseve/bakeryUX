@@ -53,17 +53,17 @@
         width="400"
       >
         <v-card>
-          <v-card-title class="headline grey lighten-2">
-            Privacy Policy
+          <v-card-title class="navBtn headline grey lighten-2">
+            Inloggning
           </v-card-title>
           <v-text-field
-            class="px-12 navBtn"
+            class="px-12 fontStyle_1"
             label="E-post"
             hide-details="auto"
           ></v-text-field>
           <v-spacer></v-spacer>
           <v-text-field
-            class="px-12 navBtn"
+            class="px-12 fontStyle_1"
             label="Lösenord"
             hide-details="auto"
           ></v-text-field>
@@ -101,5 +101,8 @@ export default {
 <style>
 .navBtn {
   font-family: "Lobster", cursive;
+}
+.fontStyle_1 {
+  font-family: "Poppins", sans-serif;
 }
 </style>
