@@ -1,6 +1,6 @@
 <template>
   <v-app>
-    <v-toolbar class="px-15" flat>
+    <v-toolbar class="mx-15" flat>
       <v-toolbar-title style="font-family: 'Lobster', cursive;"><h2>Bakeriet</h2></v-toolbar-title>
       <v-spacer></v-spacer>
       <v-btn
