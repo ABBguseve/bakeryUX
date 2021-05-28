@@ -1,7 +1,7 @@
 <template>
   <v-app>
     <v-toolbar
-      class="px-14"
+      class="px-15"
       flat
     >
       <v-toolbar-title style="font-family: 'Lobster', cursive;">
@@ -45,36 +45,46 @@
       </v-btn>
     </v-toolbar>
     <v-main>
-      <v-dialog v-model="dialog">
-        <v-card
-          width="500"
-          transition="scale-transition"
-          origin="center center"
-        >
+      <router-view />
+    </v-main>
+    <div class="text-center">
+      <v-dialog
+        v-model="dialog"
+        width="400"
+      >
+        <v-card>
           <v-card-title class="headline grey lighten-2">
             Privacy Policy
           </v-card-title>
-
-          <v-card-text>
-            Logga in
-          </v-card-text>
-
+          <v-text-field
+            class="px-12 navBtn"
+            label="E-post"
+            hide-details="auto"
+          ></v-text-field>
+          <v-spacer></v-spacer>
+          <v-text-field
+            class="px-12 navBtn"
+            label="Lösenord"
+            hide-details="auto"
+          ></v-text-field>
           <v-divider></v-divider>
-
           <v-card-actions>
             <v-spacer></v-spacer>
             <v-btn
+              class="navBtn ml-2"
+              rounded
+              depressed
+              small
               color="primary"
-              text
+              dark
               @click="dialog = false"
             >
-              I accept
+              Logga in
             </v-btn>
           </v-card-actions>
         </v-card>
       </v-dialog>
-      <router-view />
-    </v-main>
+    </div>
   </v-app>
 </template>
 
