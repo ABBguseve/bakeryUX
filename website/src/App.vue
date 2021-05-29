@@ -44,7 +44,6 @@
       >
         Logga in
       </v-btn>
-
       <v-avatar
         class="mx-2"
         v-else
@@ -160,6 +159,7 @@ export default {
     axios
       .get('http://localhost:3000/customers')
       .then(response => (this.customers = response.data))
+    this.currentUser = JSON.parse(localStorage.getItem("Storage_customer"))
   },
   methods: {
     logIn () {
@@ -181,6 +181,7 @@ export default {
           }
         }
       }
+      localStorage.setItem('Storage_customer', JSON.stringify(this.currentUser))
       this.login_dialog = false
     },
     logOut () {
@@ -188,6 +189,7 @@ export default {
       this.password = null
       this.currentUser = null
       this.konto_dialog = false
+      localStorage.clear()
     }
   }
 };
