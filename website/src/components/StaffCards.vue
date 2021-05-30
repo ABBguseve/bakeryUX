@@ -1,7 +1,13 @@
 <template>
   <div>
-    <div style="height: 100%" :class="sizy">
-      <carousel :perPage="perPage_count" class="mb-10">
+    <div
+      style="height: 100%"
+      :class="sizy"
+    >
+      <carousel
+        :perPage="perPage_count"
+        class="mb-10"
+      >
         <slide
           v-for="member in coworkers.data"
           :key="member.id"
@@ -53,12 +59,12 @@
 </template>
 
 <script>
-import axios from "axios";
-import Vue from "vue";
-import { Carousel, Slide } from "vue-carousel";
+import axios from "axios"
+import Vue from "vue"
+import { Carousel, Slide } from "vue-carousel"
 //import VueAxios from 'vue-axios'
 
-Vue.use(Carousel);
+Vue.use(Carousel)
 
 export default {
   name: "info",
@@ -67,20 +73,22 @@ export default {
     perPage_count: 3,
     sizy: ""
   }),
-  mounted() {
-    if (screen.width < 1000 && screen.width > 600) {
-      this.perPage_count = 2;
-      this.sizy = "mx-10";
-    } else if (screen.width < 600) {
-      this.perPage_count = 1;
-      this.sizy = "mx-5";
-    } else {
-      this.perPage_count = 3;
-      this.sizy = "mx-15";
-    }
+  mounted () {
     axios
       .get("http://localhost:3000/staff")
-      .then(response => (this.coworkers = response));
+      .then(response => (this.coworkers = response))
+  },
+  updated () {
+    if (screen.width < 1000 && screen.width > 680) {
+      this.perPage_count = 2
+      this.sizy = "mx-10"
+    } else if (screen.width < 680) {
+      this.perPage_count = 1
+      this.sizy = "mx-5"
+    } else {
+      this.perPage_count = 3
+      this.sizy = "mx-15"
+    }
   },
   components: {
     Carousel,
