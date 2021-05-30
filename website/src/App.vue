@@ -8,54 +8,101 @@
         <h2>Bakeriet</h2>
       </v-toolbar-title>
       <v-spacer></v-spacer>
-      <v-btn
-        class="navBtn text-capitalize"
-        plain
-        to="/"
-        color="black"
-      >Start</v-btn>
-      <v-btn
-        class="navBtn text-capitalize"
-        plain
-        to="/varor"
-        color="black"
-      >Varor</v-btn>
-      <v-btn
-        class="navBtn text-capitalize"
-        plain
-        to="/best"
-        color="black"
-      >Beställningar</v-btn>
-      <v-btn
-        class="navBtn text-capitalize"
-        plain
-        to="/omoss"
-        color="black"
-      >Om oss</v-btn>
-      <v-btn
-        class="navBtn ml-2"
-        rounded
-        depressed
-        small
-        color="primary"
-        dark
-        @click="login_dialog = !login_dialog"
-        v-if="!currentUser"
-      >
-        Logga in
-      </v-btn>
-      <v-avatar
-        class="mx-2"
-        v-else
-        clickable
-        @click="konto_dialog = !konto_dialog"
-      >
-        <img :src="currentUser.avatar" />
-      </v-avatar>
+      <div v-if="screenWidth > 700">
+        <v-btn
+          class="navBtn text-capitalize"
+          plain
+          to="/varor"
+          color="black"
+        >Varor</v-btn>
+        <v-btn
+          class="navBtn text-capitalize"
+          plain
+          to="/omoss"
+          color="black"
+        >Om oss</v-btn>
+        <v-btn
+          class="navBtn ml-2"
+          rounded
+          depressed
+          small
+          color="primary"
+          dark
+          @click="login_dialog = !login_dialog"
+          v-if="!currentUser"
+        >
+          Logga in
+        </v-btn>
+        <v-avatar
+          class="mx-2"
+          v-else
+          clickable
+          @click="konto_dialog = !konto_dialog"
+        >
+          <img :src="currentUser.avatar">
+        </v-avatar>
+      </div>
+
+      <div v-else>
+        <v-app-bar-nav-icon @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
+
+      </div>
+
     </v-toolbar>
     <v-main>
       <router-view />
     </v-main>
+    <v-navigation-drawer
+      v-model="drawer"
+      absolute
+      temporary
+      right
+    >
+      <v-list
+        nav
+        dense
+      >
+        <v-list-item>
+          <v-btn
+            class="navBtn text-capitalize"
+            plain
+            to="/varor"
+            color="black"
+          >Varor</v-btn>
+        </v-list-item>
+        <v-list-item>
+          <v-btn
+            class="navBtn text-capitalize"
+            plain
+            to="/omoss"
+            color="black"
+          >Om oss</v-btn>
+        </v-list-item>
+
+        <v-list-item>
+          <v-btn
+            class="navBtn ml-2"
+            rounded
+            depressed
+            small
+            color="primary"
+            dark
+            @click="login_dialog = !login_dialog"
+            v-if="!currentUser"
+          >
+            Logga in
+          </v-btn>
+          <v-avatar
+            class="mx-2"
+            v-else
+            clickable
+            @click="konto_dialog = !konto_dialog"
+          >
+            <img :src="currentUser.avatar">
+          </v-avatar>
+        </v-list-item>
+      </v-list>
+    </v-navigation-drawer>
     <div
       v-if="!currentUser"
       class="text-center"
@@ -155,6 +202,7 @@ export default {
   data: () => ({
     login_dialog: false,
     konto_dialog: false,
+    drawer: false,
     customers: {},
     currentUser: null,
     mail: "",
@@ -162,6 +210,7 @@ export default {
     logInError: false
   }),
   mounted () {
+    this.screenWidth = screen.width
     axios
       .get("http://localhost:3000/customers")
       .then(response => (this.customers = response.data))
