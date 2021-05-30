@@ -1,10 +1,7 @@
 <template>
   <v-app>
-    <v-toolbar
-      class="px-15"
-      flat
-    >
-      <v-toolbar-title style="font-family: 'Lobster', cursive;">
+    <v-toolbar class="px-15 fixed-bar" flat>
+      <v-toolbar-title style="font-family: 'Lobster', cursive">
         <h2>Bakeriet</h2>
       </v-toolbar-title>
       <v-spacer></v-spacer>
@@ -146,26 +143,20 @@
         </v-card>
       </v-dialog>
     </div>
-    <div
-      v-else
-      class="text-center"
-    >
-      <v-dialog
-        v-model="konto_dialog"
-        width="400"
-      >
+    <div v-else class="text-center">
+      <v-dialog v-model="konto_dialog" width="400">
         <v-card>
           <v-card-title class="navBtn headline grey lighten-2">
             Konto
           </v-card-title>
           <h4 class="px-12 navBtn">Namn</h4>
           <v-spacer></v-spacer>
-          <h4 class="px-12 fontStyle_1">{{currentUser.name}}</h4>
+          <h4 class="px-12 fontStyle_1">{{ currentUser.name }}</h4>
           <v-spacer></v-spacer>
           <v-divider></v-divider>
           <h4 class="px-12 navBtn">E-post</h4>
           <v-spacer></v-spacer>
-          <h4 class="px-12 fontStyle_1">{{currentUser.email}}</h4>
+          <h4 class="px-12 fontStyle_1">{{ currentUser.email }}</h4>
           <v-spacer></v-spacer>
           <v-card-actions>
             <v-spacer></v-spacer>
@@ -188,7 +179,7 @@
 </template>
 
 <script>
-import axios from 'axios'
+import axios from "axios";
 
 export default {
   name: "App",
@@ -206,39 +197,41 @@ export default {
   mounted () {
     this.screenWidth = screen.width
     axios
-      .get('http://localhost:3000/customers')
-      .then(response => (this.customers = response.data))
-    this.currentUser = JSON.parse(localStorage.getItem("Storage_customer"))
+      .get("http://localhost:3000/customers")
+      .then(response => (this.customers = response.data));
+    this.currentUser = JSON.parse(localStorage.getItem("Storage_customer"));
   },
   methods: {
-    logIn () {
-      let customers = this.customers
-      console.log("customers")
-      console.log(this.customers)
-      console.log("currentuser")
-      console.log(this.mail)
-      console.log(this.password)
+    logIn() {
+      let customers = this.customers;
+      console.log("customers");
+      console.log(this.customers);
+      console.log("currentuser");
+      console.log(this.mail);
+      console.log(this.password);
       for (let c in customers) {
         if (this.mail == customers[c].email) {
           if (this.password == customers[c].password) {
-            this.currentUser = customers[c]
-            console.log(customers[c].name)
-            console.log("logged in")
-          }
-          else {
-            console.error("no matching password")
+            this.currentUser = customers[c];
+            console.log(customers[c].name);
+            console.log("logged in");
+          } else {
+            console.error("no matching password");
           }
         }
       }
-      localStorage.setItem('Storage_customer', JSON.stringify(this.currentUser))
-      this.login_dialog = false
+      localStorage.setItem(
+        "Storage_customer",
+        JSON.stringify(this.currentUser)
+      );
+      this.login_dialog = false;
     },
-    logOut () {
-      this.mail = null
-      this.password = null
-      this.currentUser = null
-      this.konto_dialog = false
-      localStorage.clear()
+    logOut() {
+      this.mail = null;
+      this.password = null;
+      this.currentUser = null;
+      this.konto_dialog = false;
+      localStorage.clear();
     }
   }
 };
@@ -250,5 +243,11 @@ export default {
 }
 .fontStyle_1 {
   font-family: "Poppins", sans-serif;
+}
+.fixed-bar {
+  position: sticky;
+  position: -webkit-sticky; /* for Safari */
+  top: 6em;
+  z-index: 2;
 }
 </style>
