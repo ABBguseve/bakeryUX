@@ -19,6 +19,7 @@
                                     class="navBtn"
                                     color="primary"
                                     style="width: 100%"
+                                    @click="addToCart(cake.id)"
                                 >köp nu</v-btn>
                                 </v-card-actions>
                             </v-card>
@@ -34,16 +35,29 @@ import axios from 'axios'
 
 export default {
     data: () => ({
-      cakes: {}
+      cakes: {},
+      orders: {}
     }),
     mounted () {
       axios
         .get('http://localhost:3000/cakes')
         .then(response => (this.cakes = response.data))
+    },
+    methods: {
+        addToCart(cakeID){
+            let cakes = this.cakes
+            let c = 0
+            for(c in cakes){
+                console.log()
+                if(cakes[c].id == cakeID){
+                    axios.post('http://localhost:3000/orders', )
+                }
+                c++
+            }
+            c = 0
+        }
     }
-    
 }
-
 </script>
 
 <style>
