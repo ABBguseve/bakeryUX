@@ -18,12 +18,6 @@
         <v-btn
           class="navBtn text-capitalize"
           plain
-          to="/best"
-          color="black"
-        >Beställningar</v-btn>
-        <v-btn
-          class="navBtn text-capitalize"
-          plain
           to="/omoss"
           color="black"
         >Om oss</v-btn>
@@ -76,16 +70,6 @@
                   color="black"
                 >Varor</v-btn>
               </v-list-item>
-
-              <v-list-item>
-                <v-btn
-                  class="navBtn text-capitalize"
-                  plain
-                  to="/best"
-                  color="black"
-                >Cart</v-btn>
-              </v-list-item>
-
               <v-list-item>
                 <v-btn
                   class="navBtn text-capitalize"

@@ -1,5 +1,13 @@
 <template>
-        <div class="mx-15 grid-container" >
+        <div class="mx-15 grid-container">
+            <v-btn
+                fab
+                color="primary"
+                class="cartButton"
+                v-if="this.$store.state.yourCart =! []"
+            >
+            <v-icon>mdi-cart</v-icon>
+            </v-btn>
             <div>
                 <v-row no-gutters>
                     <template v-for="cake in cakes" >
@@ -36,25 +44,27 @@ import axios from 'axios'
 export default {
     data: () => ({
       cakes: {},
-      orders: {}
+      cart: []
     }),
     mounted () {
       axios
         .get('http://localhost:3000/cakes')
         .then(response => (this.cakes = response.data))
+      try {
+        this.cart = JSON.parse(localStorage.getItem("inCart"))
+      } catch (error) {
+        localStorage.setItem("inCart", JSON.stringify([]))
+      }
+      
     },
     methods: {
         addToCart(cakeID){
             let cakes = this.cakes
-            let c = 0
-            for(c in cakes){
-                console.log()
+            for(let c in cakes){
                 if(cakes[c].id == cakeID){
-                    axios.post('http://localhost:3000/orders', )
+                    this.$store.state.yourCart.push({name: cakes[c].title, id: cakes[c].id})
                 }
-                c++
             }
-            c = 0
         }
     }
 }
@@ -64,5 +74,11 @@ export default {
 .grid-container{
     display: grid;
     grid-template-columns: auto auto auto auto;
+}
+.cartButton{
+    position: fixed;
+    bottom: 20px;
+    right: 80px;
+    z-index: 10;
 }
 </style>
