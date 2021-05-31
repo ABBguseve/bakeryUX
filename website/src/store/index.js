@@ -5,9 +5,13 @@ Vue.use(Vuex);
 
 export default new Vuex.Store({
   state: {
-    yourCart: [{id: 4}]
+    yourCart: []
   },
-  mutations: {},
+  mutations: {
+    ADD_ITEM (state, data){
+      state.yourCart.push(data)
+    }
+  },
   actions: {},
   modules: {},
 });
