@@ -17,24 +17,31 @@
                 <v-card class="pa-10">
                     <h1>Items in your cart</h1>
                     <div v-if="cart != 0" class="pa-10">
-                        <div v-for="i in cart" :key="i" style="display: flex">
-                            <h1 >{{i.name}}</h1>
-                            <v-spacer></v-spacer>
-                            <v-btn
-                                fab
-                                color="positive"
-                                small
-                            >
-                            <v-icon>mdi-plus</v-icon>
-                            </v-btn>
-                            <v-btn
-                                fab
-                                small
-                                color="negative"
-                                class="ml-5"
-                            >
-                            <v-icon>mdi-minus</v-icon>
-                            </v-btn>
+                        <div v-for="i in cart" :key="i" >
+                            <div v-if="i.quantity > 0" style="display: flex">
+                                <h1 >{{i.name}}</h1>
+                                <v-spacer></v-spacer>
+                                <h2>{{i.quantity}}</h2>
+                                <v-spacer></v-spacer>
+                                <v-btn
+                                    fab
+                                    color="positive"
+                                    small
+                                    @click="add(i.id)"
+                                >
+                                <v-icon>mdi-plus</v-icon>
+                                </v-btn>
+                                <v-btn
+                                    fab
+                                    small
+                                    color="negative"
+                                    class="ml-5"
+                                    @click="remove(i.id)"
+                                >
+                                <v-icon>mdi-minus</v-icon>
+                                </v-btn>
+                            </div>
+                            
                         </div>
                         
 
@@ -106,16 +113,53 @@ export default {
         addToCart(cakeID){
             this.currentUser = JSON.parse(localStorage.getItem("Storage_customer"))
             let cakes = this.cakes
+            let duplicate = false
             for(let c in cakes){
                 if(cakes[c].id == cakeID){
-                    const item = {name: cakes[c].title, id: cakes[c].id}
+                    const item = {name: cakes[c].title, id: cakes[c].id, price: cakes[c].price, quantity: 1}
                     this.cart = JSON.parse(localStorage.getItem("inCart"))
-                    this.cart.push(item)
+                    for(let i in this.cart){
+                        if(this.cart[i].name == cakes[c].title){
+                            this.cart[i].quantity += 1
+                            duplicate = true
+                        }
+                    }
+                    if(!duplicate){
+                        this.cart.push(item)
+                    }
                     localStorage.removeItem("inCart")
                     localStorage.setItem("inCart", JSON.stringify(this.cart))
                     console.log(localStorage.inCart)
                 }
             }
+        },
+        remove(ID){
+            let cartItems = JSON.parse(localStorage.getItem("inCart"))
+            for(let item in cartItems){
+                if(cartItems[item].id == ID){
+                    if(cartItems[item].quantity == 0){
+                        cartItems[item] = 0
+                        console.log(cartItems)
+                    }
+                    else{
+                        cartItems[item].quantity -= 1
+                    }
+                }
+            }
+            localStorage.removeItem("inCart")
+            localStorage.setItem("inCart", JSON.stringify(cartItems))
+            this.cart = JSON.parse(localStorage.getItem("inCart"))
+        },
+        add(ID){
+            let cartItems = JSON.parse(localStorage.getItem("inCart"))
+            for(let item in cartItems){
+                if(cartItems[item].id == ID){
+                    cartItems[item].quantity += 1
+                }
+            }
+            localStorage.removeItem("inCart")
+            localStorage.setItem("inCart", JSON.stringify(cartItems))
+            this.cart = JSON.parse(localStorage.getItem("inCart"))
         }
     }
 }
