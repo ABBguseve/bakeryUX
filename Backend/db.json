@@ -1,1359 +1,362 @@
 {
-    "cakes": [
+  "cakes": [
+    {
+      "id": 1,
+      "title": "Lemon cheesecake",
+      "previewDescription": "A cheesecake made of lemon",
+      "detailDescription": "Cheesecake is a sweet dessert consisting of one or more layers. The main, and thickest layer, consists of a mixture of soft, fresh cheese (typically cream cheese or ricotta), eggs, and sugar; if there is a bottom layer it often consists of a crust or base made from crushed cookies (or digestive biscuits), graham crackers, pastry, or sponge cake. It may be baked or unbaked (usually refrigerated). Cheesecake is usually sweetened with sugar and may be flavored or topped with fruit, whipped cream, nuts, cookies, fruit sauce, and/or chocolate syrup. Cheesecake can be prepared in many flavors, such as strawberry, pumpkin, key lime, chocolate, Oreo, chestnut, or toffee.",
+      "image": "https://raw.githubusercontent.com/filippella/Dagger-Rx-Database-MVP/master/cakes/lemoncheese_cake.jpg",
+      "price": 4
+    },
+    {
+      "id": 2,
+      "title": "Victoria sponge",
+      "previewDescription": "sponge with jam",
+      "detailDescription": "The Victoria sponge, also known as the Victoria sandwich or Victorian Cake, was named after Queen Victoria, who was known to enjoy a slice of the sponge cake with her afternoon tea. It is often referred to simply as 'sponge cake', though it contains additional fat. A typical Victoria sponge consists of raspberry jam and whipped double cream or vanilla cream. The jam and cream are sandwiched between two sponge cakes; the top of the cake is not iced or decorated apart from a dusting of icing sugar. A Victoria sponge is made using one of two methods. The traditional method involves creaming caster sugar with fat (usually butter), mixing thoroughly with beaten egg, then folding flour and raising agent into the mixture. The modern method, using an electric mixer or food processor, involves simply whisking all the ingredients together until creamy. Additionally, the modern method typically uses an extra raising agent, and some recipes call for an extra-soft butter or margarine. Both the traditional and modern methods are relatively quick and simple, producing consistent results, making this type of mixture one of the most popular for children and people in a hurry. This basic 'cake' mixture has been made into an endless variety of treats and puddings, including cupcakes, chocolate cake, Eve's pudding, and many others.",
+      "image": "https://raw.githubusercontent.com/filippella/Dagger-Rx-Database-MVP/master/cakes/victoria_sponge.jpg",
+      "price": 3
+    },
+    {
+      "id": 3,
+      "title": "Carrot cake",
+      "previewDescription": "Bugs bunnys favourite",
+      "detailDescription": "Carrot cake closely resembles a quick bread in method of preparation (all the wet ingredients, such as the eggs and sugar, are mixed, all the dry ingredients are mixed, and the wet are then added to the dry) and final consistency (which is usually denser than a traditional cake and has a coarser crumb). Many carrot cake recipes include optional ingredients, such as kirsch, cinnamon, nuts, pineapple or raisins. The most common icing on carrot cake is icing sugar and lemon juice or icing sugar and kirsch (Europe) and an icing with icing sugar, butter and cream cheese (United States). As the cake is relatively moist, it can be conserved longer than many other types of cakes.",
+      "image": "https://raw.githubusercontent.com/filippella/Dagger-Rx-Database-MVP/master/cakes/carrot_cake.jpg",
+      "price": 5
+    },
+    {
+      "id": 4,
+      "title": "Banana cake",
+      "previewDescription": "Banana cake is a cake prepared using banana",
+      "detailDescription": "Banana cake is prepared using banana as a primary ingredient and typical cake ingredients such as flour, sugar, eggs, butter, margarine or oil and baking soda. The bananas can be mashed or puréed using a food processor or electric mixer and mixed into the cake batter, and the cake can also be topped or garnished with sliced bananas. Banana cake may be prepared as a use for browned or overly-ripe bananas. Chocolate may be used as an ingredient, which along with the banana is an enjoyable flavor combination for some people. Nuts such as walnuts and macadamias may be used in the batter and to top and garnish the cake.",
+      "image": "https://raw.githubusercontent.com/filippella/Dagger-Rx-Database-MVP/master/cakes/banana_cake.jpg",
+      "price": 6
+    },
+    {
+      "id": 5,
+      "title": "Birthday cake",
+      "previewDescription": "a yearly treat",
+      "detailDescription": "The birthday cake has been an integral part of the birthday celebrations in western European countries since the middle of the 19th century, which extended to Western culture. Certain rites and traditions, such as singing of birthday songs, associated with birthday cakes are common to many Western cultures. The Western tradition of adding lit candles to the top of a birthday cake originates in 18th-century Germany. However, the intertwining of cakes and birthday celebrations stretches back to the ancient Romans. The development of the birthday cake has followed the development of culinary and confectionery advancement. While throughout most of Western history, these elaborate cakes in general were the privilege of the wealthy, birthday cakes are nowadays common to most Western birthday celebrations. Around the world many variations of the birthday cake, or rather the birthday pastry and sweets, exist. There is no universal rule about the shape and color of a birthday cake – in recent years for example cakes take the form of animals or have high-quality drawings on them in order to fit the party theme. In India the most popular cake is Black Forest Cakes.",
+      "image": "https://raw.githubusercontent.com/filippella/Dagger-Rx-Database-MVP/master/cakes/birthday_cake.JPG",
+      "price": 7
+    },
+    {
+      "id": 6,
+      "title": "Avocado cake",
+      "previewDescription": "Avocado cake is a cake prepared using avocado",
+      "detailDescription": "Avocado cake is a cake prepared using avocado as a primary ingredient, together with other typical cake ingredients. The avocados may be mashed, and may be used as an ingredient in cake batter, in cake toppings and alone atop a cake. Cake variations include raw avocado cake, avocado brownies and avocado cheesecake. Raw, uncooked versions of avocado cake can be high in vitamin E and essential fatty acids, which are derived from avocado. Avocado-based cake toppings include avocado fool and avocado crazy.",
+      "image": "https://raw.githubusercontent.com/filippella/Dagger-Rx-Database-MVP/master/cakes/avocado_cake.jpg",
+      "price": 4
+    },
+    {
+      "id": 7,
+      "title": "Chocolate cake",
+      "previewDescription": "Chocolate cake is a cake flavored with melted chocolate, cocoa powder, or sometimes both.",
+      "detailDescription": "Chocolate cake is made with chocolate; it can be made with other ingredients, as well. These ingredients include fudge, vanilla creme, and other sweeteners. The history of chocolate cake goes back to 1764, when Dr. James Baker discovered how to make chocolate by grinding cocoa beans between two massive circular millstones.",
+      "image": "https://raw.githubusercontent.com/filippella/Dagger-Rx-Database-MVP/master/cakes/chocolate_cake.jpg",
+      "price": 5
+    },
+    {
+      "id": 8,
+      "title": "Clementine cake",
+      "previewDescription": "Clementine cake is a cake prepared with clementine fruit",
+      "detailDescription": "Clementine cake is a cake prepared with clementine fruit as a primary ingredient and other typical cake ingredients. Additional ingredients may be used, and some preparation variations exist. It may be prepared using whole or peeled clementines that have been manually-seeded, or seedless fruit may be used. It may provide significant amounts of Vitamin D. It may be topped with a sweet glaze or sauce, powdered sugar, honey and clementines or candied clementines. Its origin may be roughly based upon an orange cake developed by the Sephardi Jews.",
+      "image": "https://raw.githubusercontent.com/filippella/Dagger-Rx-Database-MVP/master/cakes/clementine_cake.png",
+      "price": 7
+    },
+    {
+      "id": 9,
+      "title": "Fudge cake",
+      "previewDescription": "A fudge cake is a chocolate cake containing fudge",
+      "detailDescription": "This recipe is also known as 'Death by Chocolate', as it contains a considerable amount of chocolate, if topped with chocolate ice cream and lashings of whipped cream. In addition to Death By Chocolate, the many variations include pudding fudge cake, made with chocolate cake mix, chocolate pudding, and chocolate chips. Alternatively, 'fudge cake' is a term in the American South to refer to a dense, single-layer chocolate cake served with or without icing. It is similar to a brownie, although moister with more chocolate.",
+      "image": "https://raw.githubusercontent.com/filippella/Dagger-Rx-Database-MVP/master/cakes/fudge_cake.jpg",
+      "price": 3
+    },
+    {
+      "id": 10,
+      "title": "Spice cake",
+      "previewDescription": "Spice cake is traditionally flavored with a mixture of spices.",
+      "detailDescription": "Spice cake is traditionally flavored with a mixture of spices. The cake can be prepared in many varieties. Predominant flavorings include spices such as cinnamon, cloves, allspice, ginger and nutmeg.",
+      "image": "https://raw.githubusercontent.com/filippella/Dagger-Rx-Database-MVP/master/cakes/spice_cake.jpg",
+      "price": 8
+    },
+    {
+      "id": 11,
+      "title": "Jewish apple cake",
+      "previewDescription": "Jewish apple cake is a kind of dense cake made with apples and sold mostly in Pennsylvania in the United States.",
+      "detailDescription": "Jewish apple cake is a kind of dense cake made with apples and sold mostly in Pennsylvania in the United States. It has limited known connections to Jewish cuisine. It is thought that this cake is actually a Pennsylvania Dutch culinary item that was erroneously attributed to Jews because it seemed 'old world'. It may also be considered Jewish because it contains no dairy, and it may therefore be eaten with meals containing meat, in accordance with Jewish laws of kashrut.",
+      "image": "https://raw.githubusercontent.com/filippella/Dagger-Rx-Database-MVP/master/cakes/jewish_apple_cake.jpg",
+      "price": 8
+    },
+    {
+      "id": 12,
+      "title": "Plum cake",
+      "previewDescription": "Plum cake refers to a wide range of cakes made with either dried fruit or with fresh fruit.",
+      "detailDescription": "Plum cake refers to a wide range of cakes made with either dried fruit (such as grapes, currants, raisins or prunes) or with fresh fruit. There is a wide range of popular plum cakes and puddings. Since the meaning of the word 'plum' has changed over time, many items referred to as plum cakes and popular in England since at least the eighteenth century have now become known as fruitcake. The English variety of plum cake also exists on the European mainland, but may vary in ingredients and consistency. Settlers in British colonies brought the dried fruit variety of cake with them, so that for example, in India it was served around the time of the Christmas holiday season and in the American colonies, where it became associated with elections, one version came to be called 'election cake'.",
+      "image": "https://raw.githubusercontent.com/filippella/Dagger-Rx-Database-MVP/master/cakes/plum_cake.jpg",
+      "price": 9
+    },
+    {
+      "id": 13,
+      "title": "Apple cake",
+      "previewDescription": "Apple cake is a popular dessert produced with the main ingredient of apples.",
+      "detailDescription": "Apple cake is a popular dessert produced with the main ingredient of apples. Such a cake is made through the process of slicing this sweet fruit to add fragrance to a plain cake base. Traditional apple cakes go a step further by including various spices such as nutmeg or cinnamon, which give a unique flavour. Upon the addition of spices the batter can also be accompanied by crushed nuts, the most popular being walnuts and almonds.",
+      "image": "https://raw.githubusercontent.com/filippella/Dagger-Rx-Database-MVP/master/cakes/apple_cake.JPG",
+      "price": 4
+    },
+    {
+      "id": 14,
+      "title": "Bulla cake",
+      "previewDescription": "Bulla cake is a rich Jamaican cake made with molasses and spiced with ginger and nutmeg.",
+      "detailDescription": "Bulla cake, usually referred to as bulla, is a rich Jamaican cake made with molasses and spiced with ginger and nutmeg, sometimes dark-colored and other times light-colored. Bulla are small loaves that are flat and round. They are inexpensive and easy to make using molasses, flour and baking soda. Bulla is traditionally a popular treat for schoolchildren. It is usually eaten with cheese, butter or avocado.",
+      "image": "https://raw.githubusercontent.com/filippella/Dagger-Rx-Database-MVP/master/cakes/bulla_cake.jpg",
+      "price": 3
+    },
+    {
+      "id": 15,
+      "title": "Jaffa cake",
+      "previewDescription": "Jaffa Cakes are biscuit-sized cakes.",
+      "detailDescription": "Jaffa Cakes are biscuit-sized cakes introduced by McVitie and Price in the UK in 1927 and named after Jaffa oranges. The most common form of Jaffa Cakes are circular, 2 1⁄8 inches (54 mm) in diameter and have three layers: a Genoise sponge base, a layer of orange flavoured jelly and a coating of chocolate. Jaffa Cakes are also available as bars or in small packs, and in larger and smaller sizes. The original Jaffa Cakes come in packs of 12, 24 or 36.",
+      "image": "https://raw.githubusercontent.com/filippella/Dagger-Rx-Database-MVP/master/cakes/jaffa_cake.png",
+      "price": 6
+    },
+    {
+      "id": 16,
+      "title": "Strawberry cake",
+      "previewDescription": "Strawberry cake is a crumbly bread made by strawberry.",
+      "detailDescription": "Strawberry cake is a cake that uses strawberry as a primary ingredient. Strawberries may be used in the cake batter, atop cakes and in a strawberry cake's frosting. Some are served chilled or partially frozen, and they are sometimes served as a Valentine's Day dish. The cake has been served as part of the events at the Strawberry Festival in the La Trinidad, Benguet municipality of the Philippines.",
+      "image": "https://raw.githubusercontent.com/filippella/Dagger-Rx-Database-MVP/master/cakes/strawberry_cake.jpg",
+      "price": 7
+    }
+  ],
+  "staff": [
+    {
+      "id": 0,
+      "name": "Catherine Stehr",
+      "email": "Loren_Kassulke@yahoo.com",
+      "phone": "(740) 575-5730",
+      "role": "baker",
+      "dateOfBirth": "2020-10-09T10:29:51.939Z",
+      "avatar": "https://cdn.fakercloud.com/avatars/therealmarvin_128.jpg"
+    },
+    {
+      "id": 1,
+      "name": "Sophie Mitchell",
+      "email": "Casandra.Wisoky@hotmail.com",
+      "phone": "(933) 920-9122 x2976",
+      "role": "baker",
+      "dateOfBirth": "2020-08-13T12:55:17.957Z",
+      "avatar": "https://cdn.fakercloud.com/avatars/janpalounek_128.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Maria Kutch",
+      "email": "Sonny_Stehr77@yahoo.com",
+      "phone": "283-471-1914 x3007",
+      "role": "baker",
+      "dateOfBirth": "2020-07-06T11:52:43.729Z",
+      "avatar": "https://cdn.fakercloud.com/avatars/layerssss_128.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Suzanne Dare",
+      "email": "Greta_Johnson@yahoo.com",
+      "phone": "1-401-361-9492",
+      "role": "baker",
+      "dateOfBirth": "2021-04-15T10:23:53.319Z",
+      "avatar": "https://cdn.fakercloud.com/avatars/nemanjaivanovic_128.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Emanuel Bins",
+      "email": "Della_Treutel26@gmail.com",
+      "phone": "(403) 944-7865 x151",
+      "role": "baker",
+      "dateOfBirth": "2020-05-24T01:45:27.270Z",
+      "avatar": "https://cdn.fakercloud.com/avatars/vivekprvr_128.jpg"
+    }
+  ],
+  "customers": [
+    {
+      "id": 0,
+      "name": "Robin Hirthe",
+      "email": "Aniya.Romaguera75@gmail.com",
+      "password": "ZlQYbyUVDnO4d1E",
+      "timestamp": "2021-05-18T13:16:10.933Z",
+      "avatar": "https://cdn.fakercloud.com/avatars/cofla_128.jpg"
+    },
+    {
+      "id": 1,
+      "name": "Byron Prosacco",
+      "email": "Ari9@yahoo.com",
+      "password": "S00es4JtcN6NMo2",
+      "timestamp": "2021-05-18T22:12:05.746Z",
+      "avatar": "https://cdn.fakercloud.com/avatars/noufalibrahim_128.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Jackie Turner II",
+      "email": "Lenny52@hotmail.com",
+      "password": "UB7fp4Sy67_X0TQ",
+      "timestamp": "2021-05-18T22:19:50.949Z",
+      "avatar": "https://cdn.fakercloud.com/avatars/thomasgeisen_128.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Marion Schmitt Jr.",
+      "email": "Marjorie.Labadie14@gmail.com",
+      "password": "elWT7j37Y4tVCy5",
+      "timestamp": "2021-05-18T21:04:40.135Z",
+      "avatar": "https://cdn.fakercloud.com/avatars/d_nny_m_cher_128.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Everett Tillman",
+      "email": "Rose_Nicolas@hotmail.com",
+      "password": "ox74zh2YMfUkVHu",
+      "timestamp": "2021-05-18T23:26:06.231Z",
+      "avatar": "https://cdn.fakercloud.com/avatars/zvchkelly_128.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Wilma Toy",
+      "email": "Delphine47@gmail.com",
+      "password": "vQ2wNqa5oxLyOO2",
+      "timestamp": "2021-05-18T22:54:38.882Z",
+      "avatar": "https://cdn.fakercloud.com/avatars/afusinatto_128.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Larry Kuhlman",
+      "email": "Kareem_Senger@gmail.com",
+      "password": "RmZRnV1opWS0gaY",
+      "timestamp": "2021-05-18T23:48:49.159Z",
+      "avatar": "https://cdn.fakercloud.com/avatars/nilshelmersson_128.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Pat O'Conner",
+      "email": "Virgil_Murphy@yahoo.com",
+      "password": "39HknRkbLEXVkrW",
+      "timestamp": "2021-05-18T22:53:38.292Z",
+      "avatar": "https://cdn.fakercloud.com/avatars/sementiy_128.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Sergio Ondricka",
+      "email": "Margot_Schmidt10@gmail.com",
+      "password": "nKwVpBBegiXlYZN",
+      "timestamp": "2021-05-18T16:50:03.772Z",
+      "avatar": "https://cdn.fakercloud.com/avatars/tgormtx_128.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Felix Runolfsson",
+      "email": "Alda_Hammes7@yahoo.com",
+      "password": "K9YOXiGemAuOw_V",
+      "timestamp": "2021-05-19T06:14:04.708Z",
+      "avatar": "https://cdn.fakercloud.com/avatars/batsirai_128.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Denise Keebler",
+      "email": "Adelia.Langosh28@yahoo.com",
+      "password": "xLvVLE48flE_o7B",
+      "timestamp": "2021-05-18T13:42:15.330Z",
+      "avatar": "https://cdn.fakercloud.com/avatars/terpimost_128.jpg"
+    },
+    {
+      "id": 11,
+      "name": "Gloria Padberg",
+      "email": "Jonathan_Robel47@hotmail.com",
+      "password": "RuMA5_PELNxERkG",
+      "timestamp": "2021-05-18T08:54:38.249Z",
+      "avatar": "https://cdn.fakercloud.com/avatars/vladimirdevic_128.jpg"
+    },
+    {
+      "id": 12,
+      "name": "Terrence Corkery",
+      "email": "Blanche.Stokes10@gmail.com",
+      "password": "C0VZK4OV28em24X",
+      "timestamp": "2021-05-18T08:16:51.438Z",
+      "avatar": "https://cdn.fakercloud.com/avatars/dmitriychuta_128.jpg"
+    },
+    {
+      "id": 13,
+      "name": "Mrs. Molly Marvin",
+      "email": "Xzavier_Kreiger69@gmail.com",
+      "password": "uvZnBmRMGP9H6uI",
+      "timestamp": "2021-05-18T19:49:19.709Z",
+      "avatar": "https://cdn.fakercloud.com/avatars/lonesomelemon_128.jpg"
+    },
+    {
+      "id": 14,
+      "name": "Grace Larkin",
+      "email": "Teagan64@yahoo.com",
+      "password": "JPtNR77dQ66unpP",
+      "timestamp": "2021-05-18T22:11:44.673Z",
+      "avatar": "https://cdn.fakercloud.com/avatars/baumannzone_128.jpg"
+    },
+    {
+      "id": 15,
+      "name": "Candice Ullrich Jr.",
+      "email": "Zachary0@gmail.com",
+      "password": "V3X2471CMW7T01_",
+      "timestamp": "2021-05-18T20:33:35.659Z",
+      "avatar": "https://cdn.fakercloud.com/avatars/yigitpinarbasi_128.jpg"
+    },
+    {
+      "id": 16,
+      "name": "Miss Dexter Harber",
+      "email": "Clementina11@yahoo.com",
+      "password": "b2NPKYwqdGFGcMx",
+      "timestamp": "2021-05-18T22:30:19.732Z",
+      "avatar": "https://cdn.fakercloud.com/avatars/gcmorley_128.jpg"
+    },
+    {
+      "id": 17,
+      "name": "Norman Bode",
+      "email": "Lavern83@yahoo.com",
+      "password": "UFsiIoPguv8m240",
+      "timestamp": "2021-05-18T22:34:02.215Z",
+      "avatar": "https://cdn.fakercloud.com/avatars/jerrybai1907_128.jpg"
+    },
+    {
+      "id": 18,
+      "name": "Jordan West",
+      "email": "Kirsten_Treutel@yahoo.com",
+      "password": "8UnFT_uCxIw4dND",
+      "timestamp": "2021-05-19T00:54:49.104Z",
+      "avatar": "https://cdn.fakercloud.com/avatars/dicesales_128.jpg"
+    },
+    {
+      "id": 19,
+      "name": "Mr. Grant Zulauf",
+      "email": "Lysanne.Langosh@hotmail.com",
+      "password": "8ZuqHCz6g7MSVvv",
+      "timestamp": "2021-05-19T00:30:57.739Z",
+      "avatar": "https://cdn.fakercloud.com/avatars/stevedesigner_128.jpg"
+    }
+  ],
+  "orders": [
+    {
+      "customerID": 1,
+      "cakes": [
         {
-            "id": 1,
-            "title": "Lemon cheesecake",
-            "previewDescription": "A cheesecake made of lemon",
-            "detailDescription": "Cheesecake is a sweet dessert consisting of one or more layers. The main, and thickest layer, consists of a mixture of soft, fresh cheese (typically cream cheese or ricotta), eggs, and sugar; if there is a bottom layer it often consists of a crust or base made from crushed cookies (or digestive biscuits), graham crackers, pastry, or sponge cake. It may be baked or unbaked (usually refrigerated). Cheesecake is usually sweetened with sugar and may be flavored or topped with fruit, whipped cream, nuts, cookies, fruit sauce, and/or chocolate syrup. Cheesecake can be prepared in many flavors, such as strawberry, pumpkin, key lime, chocolate, Oreo, chestnut, or toffee.",
-            "image": "https://raw.githubusercontent.com/filippella/Dagger-Rx-Database-MVP/master/cakes/lemoncheese_cake.jpg",
-            "price": 4
+          "id": 4,
+          "quantity": 1
         },
         {
-            "id": 2,
-            "title": "Victoria sponge",
-            "previewDescription": "sponge with jam",
-            "detailDescription": "The Victoria sponge, also known as the Victoria sandwich or Victorian Cake, was named after Queen Victoria, who was known to enjoy a slice of the sponge cake with her afternoon tea. It is often referred to simply as 'sponge cake', though it contains additional fat. A typical Victoria sponge consists of raspberry jam and whipped double cream or vanilla cream. The jam and cream are sandwiched between two sponge cakes; the top of the cake is not iced or decorated apart from a dusting of icing sugar. A Victoria sponge is made using one of two methods. The traditional method involves creaming caster sugar with fat (usually butter), mixing thoroughly with beaten egg, then folding flour and raising agent into the mixture. The modern method, using an electric mixer or food processor, involves simply whisking all the ingredients together until creamy. Additionally, the modern method typically uses an extra raising agent, and some recipes call for an extra-soft butter or margarine. Both the traditional and modern methods are relatively quick and simple, producing consistent results, making this type of mixture one of the most popular for children and people in a hurry. This basic 'cake' mixture has been made into an endless variety of treats and puddings, including cupcakes, chocolate cake, Eve's pudding, and many others.",
-            "image": "https://raw.githubusercontent.com/filippella/Dagger-Rx-Database-MVP/master/cakes/victoria_sponge.jpg",
-            "price": 3
+          "id": 5,
+          "quantity": 1
         },
         {
-            "id": 3,
-            "title": "Carrot cake",
-            "previewDescription": "Bugs bunnys favourite",
-            "detailDescription": "Carrot cake closely resembles a quick bread in method of preparation (all the wet ingredients, such as the eggs and sugar, are mixed, all the dry ingredients are mixed, and the wet are then added to the dry) and final consistency (which is usually denser than a traditional cake and has a coarser crumb). Many carrot cake recipes include optional ingredients, such as kirsch, cinnamon, nuts, pineapple or raisins. The most common icing on carrot cake is icing sugar and lemon juice or icing sugar and kirsch (Europe) and an icing with icing sugar, butter and cream cheese (United States). As the cake is relatively moist, it can be conserved longer than many other types of cakes.",
-            "image": "https://raw.githubusercontent.com/filippella/Dagger-Rx-Database-MVP/master/cakes/carrot_cake.jpg",
-            "price": 5
-        },
-        {
-            "id": 4,
-            "title": "Banana cake",
-            "previewDescription": "Banana cake is a cake prepared using banana",
-            "detailDescription": "Banana cake is prepared using banana as a primary ingredient and typical cake ingredients such as flour, sugar, eggs, butter, margarine or oil and baking soda. The bananas can be mashed or puréed using a food processor or electric mixer and mixed into the cake batter, and the cake can also be topped or garnished with sliced bananas. Banana cake may be prepared as a use for browned or overly-ripe bananas. Chocolate may be used as an ingredient, which along with the banana is an enjoyable flavor combination for some people. Nuts such as walnuts and macadamias may be used in the batter and to top and garnish the cake.",
-            "image": "https://raw.githubusercontent.com/filippella/Dagger-Rx-Database-MVP/master/cakes/banana_cake.jpg",
-            "price": 6
-        },
-        {
-            "id": 5,
-            "title": "Birthday cake",
-            "previewDescription": "a yearly treat",
-            "detailDescription": "The birthday cake has been an integral part of the birthday celebrations in western European countries since the middle of the 19th century, which extended to Western culture. Certain rites and traditions, such as singing of birthday songs, associated with birthday cakes are common to many Western cultures. The Western tradition of adding lit candles to the top of a birthday cake originates in 18th-century Germany. However, the intertwining of cakes and birthday celebrations stretches back to the ancient Romans. The development of the birthday cake has followed the development of culinary and confectionery advancement. While throughout most of Western history, these elaborate cakes in general were the privilege of the wealthy, birthday cakes are nowadays common to most Western birthday celebrations. Around the world many variations of the birthday cake, or rather the birthday pastry and sweets, exist. There is no universal rule about the shape and color of a birthday cake – in recent years for example cakes take the form of animals or have high-quality drawings on them in order to fit the party theme. In India the most popular cake is Black Forest Cakes.",
-            "image": "https://raw.githubusercontent.com/filippella/Dagger-Rx-Database-MVP/master/cakes/birthday_cake.JPG",
-            "price": 7
-        },
-        {
-            "id": 6,
-            "title": "Avocado cake",
-            "previewDescription": "Avocado cake is a cake prepared using avocado",
-            "detailDescription": "Avocado cake is a cake prepared using avocado as a primary ingredient, together with other typical cake ingredients. The avocados may be mashed, and may be used as an ingredient in cake batter, in cake toppings and alone atop a cake. Cake variations include raw avocado cake, avocado brownies and avocado cheesecake. Raw, uncooked versions of avocado cake can be high in vitamin E and essential fatty acids, which are derived from avocado. Avocado-based cake toppings include avocado fool and avocado crazy.",
-            "image": "https://raw.githubusercontent.com/filippella/Dagger-Rx-Database-MVP/master/cakes/avocado_cake.jpg",
-            "price": 4
-        },
-        {
-            "id": 7,
-            "title": "Chocolate cake",
-            "previewDescription": "Chocolate cake is a cake flavored with melted chocolate, cocoa powder, or sometimes both.",
-            "detailDescription": "Chocolate cake is made with chocolate; it can be made with other ingredients, as well. These ingredients include fudge, vanilla creme, and other sweeteners. The history of chocolate cake goes back to 1764, when Dr. James Baker discovered how to make chocolate by grinding cocoa beans between two massive circular millstones.",
-            "image": "https://raw.githubusercontent.com/filippella/Dagger-Rx-Database-MVP/master/cakes/chocolate_cake.jpg",
-            "price": 5
-        },
-        {
-            "id": 8,
-            "title": "Clementine cake",
-            "previewDescription": "Clementine cake is a cake prepared with clementine fruit",
-            "detailDescription": "Clementine cake is a cake prepared with clementine fruit as a primary ingredient and other typical cake ingredients. Additional ingredients may be used, and some preparation variations exist. It may be prepared using whole or peeled clementines that have been manually-seeded, or seedless fruit may be used. It may provide significant amounts of Vitamin D. It may be topped with a sweet glaze or sauce, powdered sugar, honey and clementines or candied clementines. Its origin may be roughly based upon an orange cake developed by the Sephardi Jews.",
-            "image": "https://raw.githubusercontent.com/filippella/Dagger-Rx-Database-MVP/master/cakes/clementine_cake.png",
-            "price": 7
-        },
-        {
-            "id": 9,
-            "title": "Fudge cake",
-            "previewDescription": "A fudge cake is a chocolate cake containing fudge",
-            "detailDescription": "This recipe is also known as 'Death by Chocolate', as it contains a considerable amount of chocolate, if topped with chocolate ice cream and lashings of whipped cream. In addition to Death By Chocolate, the many variations include pudding fudge cake, made with chocolate cake mix, chocolate pudding, and chocolate chips. Alternatively, 'fudge cake' is a term in the American South to refer to a dense, single-layer chocolate cake served with or without icing. It is similar to a brownie, although moister with more chocolate.",
-            "image": "https://raw.githubusercontent.com/filippella/Dagger-Rx-Database-MVP/master/cakes/fudge_cake.jpg",
-            "price": 3
-        },
-        {
-            "id": 10,
-            "title": "Spice cake",
-            "previewDescription": "Spice cake is traditionally flavored with a mixture of spices.",
-            "detailDescription": "Spice cake is traditionally flavored with a mixture of spices. The cake can be prepared in many varieties. Predominant flavorings include spices such as cinnamon, cloves, allspice, ginger and nutmeg.",
-            "image": "https://raw.githubusercontent.com/filippella/Dagger-Rx-Database-MVP/master/cakes/spice_cake.jpg",
-            "price": 8
-        },
-        {
-            "id": 11,
-            "title": "Jewish apple cake",
-            "previewDescription": "Jewish apple cake is a kind of dense cake made with apples and sold mostly in Pennsylvania in the United States.",
-            "detailDescription": "Jewish apple cake is a kind of dense cake made with apples and sold mostly in Pennsylvania in the United States. It has limited known connections to Jewish cuisine. It is thought that this cake is actually a Pennsylvania Dutch culinary item that was erroneously attributed to Jews because it seemed 'old world'. It may also be considered Jewish because it contains no dairy, and it may therefore be eaten with meals containing meat, in accordance with Jewish laws of kashrut.",
-            "image": "https://raw.githubusercontent.com/filippella/Dagger-Rx-Database-MVP/master/cakes/jewish_apple_cake.jpg",
-            "price": 8
-        },
-        {
-            "id": 12,
-            "title": "Plum cake",
-            "previewDescription": "Plum cake refers to a wide range of cakes made with either dried fruit or with fresh fruit.",
-            "detailDescription": "Plum cake refers to a wide range of cakes made with either dried fruit (such as grapes, currants, raisins or prunes) or with fresh fruit. There is a wide range of popular plum cakes and puddings. Since the meaning of the word 'plum' has changed over time, many items referred to as plum cakes and popular in England since at least the eighteenth century have now become known as fruitcake. The English variety of plum cake also exists on the European mainland, but may vary in ingredients and consistency. Settlers in British colonies brought the dried fruit variety of cake with them, so that for example, in India it was served around the time of the Christmas holiday season and in the American colonies, where it became associated with elections, one version came to be called 'election cake'.",
-            "image": "https://raw.githubusercontent.com/filippella/Dagger-Rx-Database-MVP/master/cakes/plum_cake.jpg",
-            "price": 9
-        },
-        {
-            "id": 13,
-            "title": "Apple cake",
-            "previewDescription": "Apple cake is a popular dessert produced with the main ingredient of apples.",
-            "detailDescription": "Apple cake is a popular dessert produced with the main ingredient of apples. Such a cake is made through the process of slicing this sweet fruit to add fragrance to a plain cake base. Traditional apple cakes go a step further by including various spices such as nutmeg or cinnamon, which give a unique flavour. Upon the addition of spices the batter can also be accompanied by crushed nuts, the most popular being walnuts and almonds.",
-            "image": "https://raw.githubusercontent.com/filippella/Dagger-Rx-Database-MVP/master/cakes/apple_cake.JPG",
-            "price": 4
-        },
-        {
-            "id": 14,
-            "title": "Bulla cake",
-            "previewDescription": "Bulla cake is a rich Jamaican cake made with molasses and spiced with ginger and nutmeg.",
-            "detailDescription": "Bulla cake, usually referred to as bulla, is a rich Jamaican cake made with molasses and spiced with ginger and nutmeg, sometimes dark-colored and other times light-colored. Bulla are small loaves that are flat and round. They are inexpensive and easy to make using molasses, flour and baking soda. Bulla is traditionally a popular treat for schoolchildren. It is usually eaten with cheese, butter or avocado.",
-            "image": "https://raw.githubusercontent.com/filippella/Dagger-Rx-Database-MVP/master/cakes/bulla_cake.jpg",
-            "price": 3
-        },
-        {
-            "id": 15,
-            "title": "Jaffa cake",
-            "previewDescription": "Jaffa Cakes are biscuit-sized cakes.",
-            "detailDescription": "Jaffa Cakes are biscuit-sized cakes introduced by McVitie and Price in the UK in 1927 and named after Jaffa oranges. The most common form of Jaffa Cakes are circular, 2 1⁄8 inches (54 mm) in diameter and have three layers: a Genoise sponge base, a layer of orange flavoured jelly and a coating of chocolate. Jaffa Cakes are also available as bars or in small packs, and in larger and smaller sizes. The original Jaffa Cakes come in packs of 12, 24 or 36.",
-            "image": "https://raw.githubusercontent.com/filippella/Dagger-Rx-Database-MVP/master/cakes/jaffa_cake.png",
-            "price": 6
-        },
-        {
-            "id": 16,
-            "title": "Strawberry cake",
-            "previewDescription": "Strawberry cake is a crumbly bread made by strawberry.",
-            "detailDescription": "Strawberry cake is a cake that uses strawberry as a primary ingredient. Strawberries may be used in the cake batter, atop cakes and in a strawberry cake's frosting. Some are served chilled or partially frozen, and they are sometimes served as a Valentine's Day dish. The cake has been served as part of the events at the Strawberry Festival in the La Trinidad, Benguet municipality of the Philippines.",
-            "image": "https://raw.githubusercontent.com/filippella/Dagger-Rx-Database-MVP/master/cakes/strawberry_cake.jpg",
-            "price": 7
+          "id": 9,
+          "quantity": 1
         }
-    ],
-    "staff": [
-        {
-            "id": 0,
-            "name": "Catherine Stehr",
-            "email": "Loren_Kassulke@yahoo.com",
-            "phone": "(740) 575-5730",
-            "role": "baker",
-            "dateOfBirth": "2020-10-09T10:29:51.939Z",
-            "avatar": "https://cdn.fakercloud.com/avatars/therealmarvin_128.jpg"
-        },
-        {
-            "id": 1,
-            "name": "Sophie Mitchell",
-            "email": "Casandra.Wisoky@hotmail.com",
-            "phone": "(933) 920-9122 x2976",
-            "role": "baker",
-            "dateOfBirth": "2020-08-13T12:55:17.957Z",
-            "avatar": "https://cdn.fakercloud.com/avatars/janpalounek_128.jpg"
-        },
-        {
-            "id": 2,
-            "name": "Maria Kutch",
-            "email": "Sonny_Stehr77@yahoo.com",
-            "phone": "283-471-1914 x3007",
-            "role": "baker",
-            "dateOfBirth": "2020-07-06T11:52:43.729Z",
-            "avatar": "https://cdn.fakercloud.com/avatars/layerssss_128.jpg"
-        },
-        {
-            "id": 3,
-            "name": "Suzanne Dare",
-            "email": "Greta_Johnson@yahoo.com",
-            "phone": "1-401-361-9492",
-            "role": "baker",
-            "dateOfBirth": "2021-04-15T10:23:53.319Z",
-            "avatar": "https://cdn.fakercloud.com/avatars/nemanjaivanovic_128.jpg"
-        },
-        {
-            "id": 4,
-            "name": "Emanuel Bins",
-            "email": "Della_Treutel26@gmail.com",
-            "phone": "(403) 944-7865 x151",
-            "role": "baker",
-            "dateOfBirth": "2020-05-24T01:45:27.270Z",
-            "avatar": "https://cdn.fakercloud.com/avatars/vivekprvr_128.jpg"
-        }
-    ],
-    "customers": [
-        {
-            "id": 0,
-            "name": "Robin Hirthe",
-            "email": "Aniya.Romaguera75@gmail.com",
-            "password": "ZlQYbyUVDnO4d1E",
-            "timestamp": "2021-05-18T13:16:10.933Z",
-            "avatar": "https://cdn.fakercloud.com/avatars/cofla_128.jpg"
-        },
-        {
-            "id": 1,
-            "name": "Byron Prosacco",
-            "email": "Ari9@yahoo.com",
-            "password": "S00es4JtcN6NMo2",
-            "timestamp": "2021-05-18T22:12:05.746Z",
-            "avatar": "https://cdn.fakercloud.com/avatars/noufalibrahim_128.jpg"
-        },
-        {
-            "id": 2,
-            "name": "Jackie Turner II",
-            "email": "Lenny52@hotmail.com",
-            "password": "UB7fp4Sy67_X0TQ",
-            "timestamp": "2021-05-18T22:19:50.949Z",
-            "avatar": "https://cdn.fakercloud.com/avatars/thomasgeisen_128.jpg"
-        },
-        {
-            "id": 3,
-            "name": "Marion Schmitt Jr.",
-            "email": "Marjorie.Labadie14@gmail.com",
-            "password": "elWT7j37Y4tVCy5",
-            "timestamp": "2021-05-18T21:04:40.135Z",
-            "avatar": "https://cdn.fakercloud.com/avatars/d_nny_m_cher_128.jpg"
-        },
-        {
-            "id": 4,
-            "name": "Everett Tillman",
-            "email": "Rose_Nicolas@hotmail.com",
-            "password": "ox74zh2YMfUkVHu",
-            "timestamp": "2021-05-18T23:26:06.231Z",
-            "avatar": "https://cdn.fakercloud.com/avatars/zvchkelly_128.jpg"
-        },
-        {
-            "id": 5,
-            "name": "Wilma Toy",
-            "email": "Delphine47@gmail.com",
-            "password": "vQ2wNqa5oxLyOO2",
-            "timestamp": "2021-05-18T22:54:38.882Z",
-            "avatar": "https://cdn.fakercloud.com/avatars/afusinatto_128.jpg"
-        },
-        {
-            "id": 6,
-            "name": "Larry Kuhlman",
-            "email": "Kareem_Senger@gmail.com",
-            "password": "RmZRnV1opWS0gaY",
-            "timestamp": "2021-05-18T23:48:49.159Z",
-            "avatar": "https://cdn.fakercloud.com/avatars/nilshelmersson_128.jpg"
-        },
-        {
-            "id": 7,
-            "name": "Pat O'Conner",
-            "email": "Virgil_Murphy@yahoo.com",
-            "password": "39HknRkbLEXVkrW",
-            "timestamp": "2021-05-18T22:53:38.292Z",
-            "avatar": "https://cdn.fakercloud.com/avatars/sementiy_128.jpg"
-        },
-        {
-            "id": 8,
-            "name": "Sergio Ondricka",
-            "email": "Margot_Schmidt10@gmail.com",
-            "password": "nKwVpBBegiXlYZN",
-            "timestamp": "2021-05-18T16:50:03.772Z",
-            "avatar": "https://cdn.fakercloud.com/avatars/tgormtx_128.jpg"
-        },
-        {
-            "id": 9,
-            "name": "Felix Runolfsson",
-            "email": "Alda_Hammes7@yahoo.com",
-            "password": "K9YOXiGemAuOw_V",
-            "timestamp": "2021-05-19T06:14:04.708Z",
-            "avatar": "https://cdn.fakercloud.com/avatars/batsirai_128.jpg"
-        },
-        {
-            "id": 10,
-            "name": "Denise Keebler",
-            "email": "Adelia.Langosh28@yahoo.com",
-            "password": "xLvVLE48flE_o7B",
-            "timestamp": "2021-05-18T13:42:15.330Z",
-            "avatar": "https://cdn.fakercloud.com/avatars/terpimost_128.jpg"
-        },
-        {
-            "id": 11,
-            "name": "Gloria Padberg",
-            "email": "Jonathan_Robel47@hotmail.com",
-            "password": "RuMA5_PELNxERkG",
-            "timestamp": "2021-05-18T08:54:38.249Z",
-            "avatar": "https://cdn.fakercloud.com/avatars/vladimirdevic_128.jpg"
-        },
-        {
-            "id": 12,
-            "name": "Terrence Corkery",
-            "email": "Blanche.Stokes10@gmail.com",
-            "password": "C0VZK4OV28em24X",
-            "timestamp": "2021-05-18T08:16:51.438Z",
-            "avatar": "https://cdn.fakercloud.com/avatars/dmitriychuta_128.jpg"
-        },
-        {
-            "id": 13,
-            "name": "Mrs. Molly Marvin",
-            "email": "Xzavier_Kreiger69@gmail.com",
-            "password": "uvZnBmRMGP9H6uI",
-            "timestamp": "2021-05-18T19:49:19.709Z",
-            "avatar": "https://cdn.fakercloud.com/avatars/lonesomelemon_128.jpg"
-        },
-        {
-            "id": 14,
-            "name": "Grace Larkin",
-            "email": "Teagan64@yahoo.com",
-            "password": "JPtNR77dQ66unpP",
-            "timestamp": "2021-05-18T22:11:44.673Z",
-            "avatar": "https://cdn.fakercloud.com/avatars/baumannzone_128.jpg"
-        },
-        {
-            "id": 15,
-            "name": "Candice Ullrich Jr.",
-            "email": "Zachary0@gmail.com",
-            "password": "V3X2471CMW7T01_",
-            "timestamp": "2021-05-18T20:33:35.659Z",
-            "avatar": "https://cdn.fakercloud.com/avatars/yigitpinarbasi_128.jpg"
-        },
-        {
-            "id": 16,
-            "name": "Miss Dexter Harber",
-            "email": "Clementina11@yahoo.com",
-            "password": "b2NPKYwqdGFGcMx",
-            "timestamp": "2021-05-18T22:30:19.732Z",
-            "avatar": "https://cdn.fakercloud.com/avatars/gcmorley_128.jpg"
-        },
-        {
-            "id": 17,
-            "name": "Norman Bode",
-            "email": "Lavern83@yahoo.com",
-            "password": "UFsiIoPguv8m240",
-            "timestamp": "2021-05-18T22:34:02.215Z",
-            "avatar": "https://cdn.fakercloud.com/avatars/jerrybai1907_128.jpg"
-        },
-        {
-            "id": 18,
-            "name": "Jordan West",
-            "email": "Kirsten_Treutel@yahoo.com",
-            "password": "8UnFT_uCxIw4dND",
-            "timestamp": "2021-05-19T00:54:49.104Z",
-            "avatar": "https://cdn.fakercloud.com/avatars/dicesales_128.jpg"
-        },
-        {
-            "id": 19,
-            "name": "Mr. Grant Zulauf",
-            "email": "Lysanne.Langosh@hotmail.com",
-            "password": "8ZuqHCz6g7MSVvv",
-            "timestamp": "2021-05-19T00:30:57.739Z",
-            "avatar": "https://cdn.fakercloud.com/avatars/stevedesigner_128.jpg"
-        }
-    ],
-    "orders": [
-        {
-            "id": 0,
-            "customerId": 8,
-            "cakes": [
-                {
-                    "cakeId": 8,
-                    "quantity": 3
-                },
-                {
-                    "cakeId": 15,
-                    "quantity": 4
-                },
-                {
-                    "cakeId": 14,
-                    "quantity": 2
-                }
-            ],
-            "totalPrice": 32,
-            "timestamp": "2021-05-18T11:39:34.017Z"
-        },
-        {
-            "id": 1,
-            "customerId": 19,
-            "cakes": [
-                {
-                    "cakeId": 4,
-                    "quantity": 4
-                },
-                {
-                    "cakeId": 9,
-                    "quantity": 2
-                },
-                {
-                    "cakeId": 4,
-                    "quantity": 5
-                },
-                {
-                    "cakeId": 7,
-                    "quantity": 3
-                },
-                {
-                    "cakeId": 15,
-                    "quantity": 1
-                }
-            ],
-            "totalPrice": 37,
-            "timestamp": "2021-05-19T01:00:50.398Z"
-        },
-        {
-            "id": 2,
-            "customerId": 12,
-            "cakes": [
-                {
-                    "cakeId": 7,
-                    "quantity": 5
-                },
-                {
-                    "cakeId": 9,
-                    "quantity": 2
-                },
-                {
-                    "cakeId": 12,
-                    "quantity": 1
-                },
-                {
-                    "cakeId": 9,
-                    "quantity": 3
-                }
-            ],
-            "totalPrice": 31,
-            "timestamp": "2021-05-18T23:58:59.575Z"
-        },
-        {
-            "id": 3,
-            "customerId": 1,
-            "cakes": [
-                {
-                    "cakeId": 13,
-                    "quantity": 1
-                },
-                {
-                    "cakeId": 15,
-                    "quantity": 3
-                },
-                {
-                    "cakeId": 1,
-                    "quantity": 1
-                },
-                {
-                    "cakeId": 14,
-                    "quantity": 3
-                },
-                {
-                    "cakeId": 5,
-                    "quantity": 3
-                }
-            ],
-            "totalPrice": 28,
-            "timestamp": "2021-05-18T22:51:15.737Z"
-        },
-        {
-            "id": 4,
-            "customerId": 15,
-            "cakes": [
-                {
-                    "cakeId": 3,
-                    "quantity": 4
-                },
-                {
-                    "cakeId": 1,
-                    "quantity": 1
-                },
-                {
-                    "cakeId": 16,
-                    "quantity": 4
-                },
-                {
-                    "cakeId": 9,
-                    "quantity": 4
-                },
-                {
-                    "cakeId": 12,
-                    "quantity": 5
-                }
-            ],
-            "totalPrice": 42,
-            "timestamp": "2021-05-19T04:37:37.523Z"
-        },
-        {
-            "id": 5,
-            "customerId": 1,
-            "cakes": [
-                {
-                    "cakeId": 7,
-                    "quantity": 2
-                },
-                {
-                    "cakeId": 9,
-                    "quantity": 1
-                }
-            ],
-            "totalPrice": 16,
-            "timestamp": "2021-05-18T08:36:58.109Z"
-        },
-        {
-            "id": 6,
-            "customerId": 2,
-            "cakes": [
-                {
-                    "cakeId": 9,
-                    "quantity": 5
-                },
-                {
-                    "cakeId": 8,
-                    "quantity": 2
-                },
-                {
-                    "cakeId": 16,
-                    "quantity": 3
-                }
-            ],
-            "totalPrice": 11,
-            "timestamp": "2021-05-19T01:25:07.861Z"
-        },
-        {
-            "id": 7,
-            "customerId": 8,
-            "cakes": [
-                {
-                    "cakeId": 3,
-                    "quantity": 1
-                }
-            ],
-            "totalPrice": 19,
-            "timestamp": "2021-05-18T08:49:26.850Z"
-        },
-        {
-            "id": 8,
-            "customerId": 15,
-            "cakes": [
-                {
-                    "cakeId": 2,
-                    "quantity": 1
-                },
-                {
-                    "cakeId": 14,
-                    "quantity": 1
-                },
-                {
-                    "cakeId": 9,
-                    "quantity": 3
-                }
-            ],
-            "totalPrice": 24,
-            "timestamp": "2021-05-18T10:49:48.719Z"
-        },
-        {
-            "id": 9,
-            "customerId": 20,
-            "cakes": [
-                {
-                    "cakeId": 14,
-                    "quantity": 1
-                }
-            ],
-            "totalPrice": 13,
-            "timestamp": "2021-05-18T22:05:21.681Z"
-        },
-        {
-            "id": 10,
-            "customerId": 8,
-            "cakes": [
-                {
-                    "cakeId": 9,
-                    "quantity": 3
-                },
-                {
-                    "cakeId": 1,
-                    "quantity": 4
-                },
-                {
-                    "cakeId": 16,
-                    "quantity": 2
-                },
-                {
-                    "cakeId": 16,
-                    "quantity": 1
-                },
-                {
-                    "cakeId": 14,
-                    "quantity": 3
-                }
-            ],
-            "totalPrice": 26,
-            "timestamp": "2021-05-19T04:18:18.869Z"
-        },
-        {
-            "id": 11,
-            "customerId": 13,
-            "cakes": [
-                {
-                    "cakeId": 10,
-                    "quantity": 3
-                }
-            ],
-            "totalPrice": 39,
-            "timestamp": "2021-05-18T19:08:30.558Z"
-        },
-        {
-            "id": 12,
-            "customerId": 9,
-            "cakes": [
-                {
-                    "cakeId": 7,
-                    "quantity": 3
-                },
-                {
-                    "cakeId": 10,
-                    "quantity": 3
-                }
-            ],
-            "totalPrice": 30,
-            "timestamp": "2021-05-19T03:48:11.091Z"
-        },
-        {
-            "id": 13,
-            "customerId": 1,
-            "cakes": [
-                {
-                    "cakeId": 14,
-                    "quantity": 1
-                },
-                {
-                    "cakeId": 2,
-                    "quantity": 1
-                },
-                {
-                    "cakeId": 4,
-                    "quantity": 5
-                },
-                {
-                    "cakeId": 13,
-                    "quantity": 4
-                }
-            ],
-            "totalPrice": 20,
-            "timestamp": "2021-05-18T15:11:44.226Z"
-        },
-        {
-            "id": 14,
-            "customerId": 2,
-            "cakes": [
-                {
-                    "cakeId": 1,
-                    "quantity": 2
-                },
-                {
-                    "cakeId": 3,
-                    "quantity": 5
-                },
-                {
-                    "cakeId": 10,
-                    "quantity": 4
-                },
-                {
-                    "cakeId": 4,
-                    "quantity": 2
-                }
-            ],
-            "totalPrice": 22,
-            "timestamp": "2021-05-19T03:24:08.496Z"
-        },
-        {
-            "id": 15,
-            "customerId": 2,
-            "cakes": [
-                {
-                    "cakeId": 14,
-                    "quantity": 4
-                }
-            ],
-            "totalPrice": 29,
-            "timestamp": "2021-05-19T05:52:15.491Z"
-        },
-        {
-            "id": 16,
-            "customerId": 20,
-            "cakes": [
-                {
-                    "cakeId": 12,
-                    "quantity": 3
-                },
-                {
-                    "cakeId": 10,
-                    "quantity": 1
-                },
-                {
-                    "cakeId": 1,
-                    "quantity": 2
-                }
-            ],
-            "totalPrice": 27,
-            "timestamp": "2021-05-18T15:43:39.864Z"
-        },
-        {
-            "id": 17,
-            "customerId": 10,
-            "cakes": [
-                {
-                    "cakeId": 3,
-                    "quantity": 3
-                },
-                {
-                    "cakeId": 11,
-                    "quantity": 1
-                },
-                {
-                    "cakeId": 10,
-                    "quantity": 3
-                },
-                {
-                    "cakeId": 2,
-                    "quantity": 2
-                }
-            ],
-            "totalPrice": 20,
-            "timestamp": "2021-05-18T12:05:34.296Z"
-        },
-        {
-            "id": 18,
-            "customerId": 15,
-            "cakes": [
-                {
-                    "cakeId": 15,
-                    "quantity": 1
-                },
-                {
-                    "cakeId": 8,
-                    "quantity": 3
-                }
-            ],
-            "totalPrice": 13,
-            "timestamp": "2021-05-18T11:59:02.353Z"
-        },
-        {
-            "id": 19,
-            "customerId": 2,
-            "cakes": [
-                {
-                    "cakeId": 9,
-                    "quantity": 5
-                },
-                {
-                    "cakeId": 4,
-                    "quantity": 3
-                }
-            ],
-            "totalPrice": 41,
-            "timestamp": "2021-05-18T23:00:46.779Z"
-        },
-        {
-            "id": 20,
-            "customerId": 16,
-            "cakes": [
-                {
-                    "cakeId": 1,
-                    "quantity": 2
-                },
-                {
-                    "cakeId": 5,
-                    "quantity": 3
-                },
-                {
-                    "cakeId": 3,
-                    "quantity": 4
-                }
-            ],
-            "totalPrice": 38,
-            "timestamp": "2021-05-19T01:32:09.447Z"
-        },
-        {
-            "id": 21,
-            "customerId": 6,
-            "cakes": [
-                {
-                    "cakeId": 13,
-                    "quantity": 2
-                },
-                {
-                    "cakeId": 3,
-                    "quantity": 2
-                },
-                {
-                    "cakeId": 14,
-                    "quantity": 5
-                }
-            ],
-            "totalPrice": 35,
-            "timestamp": "2021-05-18T11:57:52.333Z"
-        },
-        {
-            "id": 22,
-            "customerId": 6,
-            "cakes": [
-                {
-                    "cakeId": 4,
-                    "quantity": 4
-                },
-                {
-                    "cakeId": 11,
-                    "quantity": 5
-                },
-                {
-                    "cakeId": 16,
-                    "quantity": 2
-                }
-            ],
-            "totalPrice": 29,
-            "timestamp": "2021-05-19T05:05:13.558Z"
-        },
-        {
-            "id": 23,
-            "customerId": 9,
-            "cakes": [
-                {
-                    "cakeId": 11,
-                    "quantity": 5
-                },
-                {
-                    "cakeId": 1,
-                    "quantity": 3
-                },
-                {
-                    "cakeId": 5,
-                    "quantity": 2
-                },
-                {
-                    "cakeId": 9,
-                    "quantity": 5
-                }
-            ],
-            "totalPrice": 31,
-            "timestamp": "2021-05-18T07:59:30.984Z"
-        },
-        {
-            "id": 24,
-            "customerId": 1,
-            "cakes": [
-                {
-                    "cakeId": 12,
-                    "quantity": 4
-                },
-                {
-                    "cakeId": 14,
-                    "quantity": 5
-                },
-                {
-                    "cakeId": 6,
-                    "quantity": 5
-                },
-                {
-                    "cakeId": 15,
-                    "quantity": 2
-                }
-            ],
-            "totalPrice": 15,
-            "timestamp": "2021-05-18T23:30:30.540Z"
-        },
-        {
-            "id": 25,
-            "customerId": 17,
-            "cakes": [
-                {
-                    "cakeId": 11,
-                    "quantity": 2
-                },
-                {
-                    "cakeId": 10,
-                    "quantity": 2
-                },
-                {
-                    "cakeId": 16,
-                    "quantity": 3
-                },
-                {
-                    "cakeId": 7,
-                    "quantity": 2
-                },
-                {
-                    "cakeId": 13,
-                    "quantity": 5
-                }
-            ],
-            "totalPrice": 28,
-            "timestamp": "2021-05-18T12:17:41.404Z"
-        },
-        {
-            "id": 26,
-            "customerId": 16,
-            "cakes": [
-                {
-                    "cakeId": 8,
-                    "quantity": 2
-                },
-                {
-                    "cakeId": 3,
-                    "quantity": 5
-                },
-                {
-                    "cakeId": 2,
-                    "quantity": 1
-                },
-                {
-                    "cakeId": 15,
-                    "quantity": 3
-                }
-            ],
-            "totalPrice": 40,
-            "timestamp": "2021-05-18T22:41:04.243Z"
-        },
-        {
-            "id": 27,
-            "customerId": 1,
-            "cakes": [
-                {
-                    "cakeId": 15,
-                    "quantity": 1
-                }
-            ],
-            "totalPrice": 19,
-            "timestamp": "2021-05-18T19:01:47.976Z"
-        },
-        {
-            "id": 28,
-            "customerId": 12,
-            "cakes": [
-                {
-                    "cakeId": 4,
-                    "quantity": 3
-                }
-            ],
-            "totalPrice": 36,
-            "timestamp": "2021-05-18T14:22:23.331Z"
-        },
-        {
-            "id": 29,
-            "customerId": 10,
-            "cakes": [
-                {
-                    "cakeId": 9,
-                    "quantity": 4
-                },
-                {
-                    "cakeId": 13,
-                    "quantity": 3
-                },
-                {
-                    "cakeId": 1,
-                    "quantity": 3
-                },
-                {
-                    "cakeId": 7,
-                    "quantity": 3
-                },
-                {
-                    "cakeId": 9,
-                    "quantity": 4
-                }
-            ],
-            "totalPrice": 24,
-            "timestamp": "2021-05-19T00:51:38.912Z"
-        },
-        {
-            "id": 30,
-            "customerId": 8,
-            "cakes": [
-                {
-                    "cakeId": 16,
-                    "quantity": 5
-                },
-                {
-                    "cakeId": 6,
-                    "quantity": 1
-                },
-                {
-                    "cakeId": 14,
-                    "quantity": 2
-                },
-                {
-                    "cakeId": 2,
-                    "quantity": 5
-                },
-                {
-                    "cakeId": 9,
-                    "quantity": 3
-                }
-            ],
-            "totalPrice": 18,
-            "timestamp": "2021-05-18T19:47:24.710Z"
-        },
-        {
-            "id": 31,
-            "customerId": 4,
-            "cakes": [
-                {
-                    "cakeId": 3,
-                    "quantity": 2
-                }
-            ],
-            "totalPrice": 40,
-            "timestamp": "2021-05-18T21:29:52.140Z"
-        },
-        {
-            "id": 32,
-            "customerId": 10,
-            "cakes": [
-                {
-                    "cakeId": 1,
-                    "quantity": 4
-                },
-                {
-                    "cakeId": 4,
-                    "quantity": 4
-                },
-                {
-                    "cakeId": 13,
-                    "quantity": 5
-                },
-                {
-                    "cakeId": 1,
-                    "quantity": 4
-                }
-            ],
-            "totalPrice": 15,
-            "timestamp": "2021-05-18T09:40:26.793Z"
-        },
-        {
-            "id": 33,
-            "customerId": 19,
-            "cakes": [
-                {
-                    "cakeId": 1,
-                    "quantity": 2
-                },
-                {
-                    "cakeId": 15,
-                    "quantity": 5
-                },
-                {
-                    "cakeId": 9,
-                    "quantity": 3
-                },
-                {
-                    "cakeId": 8,
-                    "quantity": 3
-                },
-                {
-                    "cakeId": 14,
-                    "quantity": 5
-                }
-            ],
-            "totalPrice": 12,
-            "timestamp": "2021-05-18T18:45:05.985Z"
-        },
-        {
-            "id": 34,
-            "customerId": 6,
-            "cakes": [
-                {
-                    "cakeId": 14,
-                    "quantity": 3
-                },
-                {
-                    "cakeId": 10,
-                    "quantity": 3
-                }
-            ],
-            "totalPrice": 31,
-            "timestamp": "2021-05-19T00:11:10.340Z"
-        },
-        {
-            "id": 35,
-            "customerId": 13,
-            "cakes": [
-                {
-                    "cakeId": 2,
-                    "quantity": 2
-                }
-            ],
-            "totalPrice": 25,
-            "timestamp": "2021-05-19T03:50:24.181Z"
-        },
-        {
-            "id": 36,
-            "customerId": 17,
-            "cakes": [
-                {
-                    "cakeId": 16,
-                    "quantity": 2
-                }
-            ],
-            "totalPrice": 44,
-            "timestamp": "2021-05-19T05:32:22.136Z"
-        },
-        {
-            "id": 37,
-            "customerId": 18,
-            "cakes": [
-                {
-                    "cakeId": 5,
-                    "quantity": 3
-                },
-                {
-                    "cakeId": 4,
-                    "quantity": 4
-                },
-                {
-                    "cakeId": 10,
-                    "quantity": 2
-                }
-            ],
-            "totalPrice": 39,
-            "timestamp": "2021-05-18T08:59:33.995Z"
-        },
-        {
-            "id": 38,
-            "customerId": 18,
-            "cakes": [
-                {
-                    "cakeId": 6,
-                    "quantity": 1
-                },
-                {
-                    "cakeId": 12,
-                    "quantity": 2
-                },
-                {
-                    "cakeId": 9,
-                    "quantity": 4
-                },
-                {
-                    "cakeId": 8,
-                    "quantity": 5
-                }
-            ],
-            "totalPrice": 15,
-            "timestamp": "2021-05-18T21:49:54.874Z"
-        },
-        {
-            "id": 39,
-            "customerId": 11,
-            "cakes": [
-                {
-                    "cakeId": 12,
-                    "quantity": 5
-                },
-                {
-                    "cakeId": 4,
-                    "quantity": 2
-                },
-                {
-                    "cakeId": 10,
-                    "quantity": 4
-                }
-            ],
-            "totalPrice": 38,
-            "timestamp": "2021-05-19T05:07:54.204Z"
-        },
-        {
-            "id": 40,
-            "customerId": 3,
-            "cakes": [
-                {
-                    "cakeId": 7,
-                    "quantity": 5
-                },
-                {
-                    "cakeId": 1,
-                    "quantity": 3
-                },
-                {
-                    "cakeId": 3,
-                    "quantity": 1
-                },
-                {
-                    "cakeId": 5,
-                    "quantity": 2
-                }
-            ],
-            "totalPrice": 50,
-            "timestamp": "2021-05-18T08:51:28.154Z"
-        },
-        {
-            "id": 41,
-            "customerId": 7,
-            "cakes": [
-                {
-                    "cakeId": 14,
-                    "quantity": 2
-                },
-                {
-                    "cakeId": 13,
-                    "quantity": 3
-                },
-                {
-                    "cakeId": 6,
-                    "quantity": 3
-                },
-                {
-                    "cakeId": 16,
-                    "quantity": 4
-                }
-            ],
-            "totalPrice": 37,
-            "timestamp": "2021-05-18T11:04:18.061Z"
-        },
-        {
-            "id": 42,
-            "customerId": 18,
-            "cakes": [
-                {
-                    "cakeId": 6,
-                    "quantity": 3
-                },
-                {
-                    "cakeId": 6,
-                    "quantity": 5
-                }
-            ],
-            "totalPrice": 44,
-            "timestamp": "2021-05-18T11:45:58.185Z"
-        },
-        {
-            "id": 43,
-            "customerId": 10,
-            "cakes": [
-                {
-                    "cakeId": 2,
-                    "quantity": 1
-                },
-                {
-                    "cakeId": 9,
-                    "quantity": 1
-                },
-                {
-                    "cakeId": 12,
-                    "quantity": 3
-                }
-            ],
-            "totalPrice": 43,
-            "timestamp": "2021-05-18T22:13:48.106Z"
-        },
-        {
-            "id": 44,
-            "customerId": 11,
-            "cakes": [
-                {
-                    "cakeId": 13,
-                    "quantity": 4
-                },
-                {
-                    "cakeId": 6,
-                    "quantity": 5
-                }
-            ],
-            "totalPrice": 39,
-            "timestamp": "2021-05-18T08:55:09.869Z"
-        },
-        {
-            "id": 45,
-            "customerId": 5,
-            "cakes": [
-                {
-                    "cakeId": 13,
-                    "quantity": 1
-                },
-                {
-                    "cakeId": 16,
-                    "quantity": 5
-                },
-                {
-                    "cakeId": 11,
-                    "quantity": 4
-                },
-                {
-                    "cakeId": 6,
-                    "quantity": 5
-                }
-            ],
-            "totalPrice": 36,
-            "timestamp": "2021-05-18T14:51:28.992Z"
-        },
-        {
-            "id": 46,
-            "customerId": 3,
-            "cakes": [
-                {
-                    "cakeId": 11,
-                    "quantity": 5
-                },
-                {
-                    "cakeId": 15,
-                    "quantity": 4
-                },
-                {
-                    "cakeId": 1,
-                    "quantity": 2
-                },
-                {
-                    "cakeId": 12,
-                    "quantity": 1
-                },
-                {
-                    "cakeId": 12,
-                    "quantity": 3
-                }
-            ],
-            "totalPrice": 19,
-            "timestamp": "2021-05-19T01:21:23.026Z"
-        },
-        {
-            "id": 47,
-            "customerId": 5,
-            "cakes": [
-                {
-                    "cakeId": 8,
-                    "quantity": 2
-                },
-                {
-                    "cakeId": 4,
-                    "quantity": 2
-                }
-            ],
-            "totalPrice": 26,
-            "timestamp": "2021-05-18T13:42:06.978Z"
-        },
-        {
-            "id": 48,
-            "customerId": 18,
-            "cakes": [
-                {
-                    "cakeId": 11,
-                    "quantity": 2
-                },
-                {
-                    "cakeId": 13,
-                    "quantity": 5
-                },
-                {
-                    "cakeId": 4,
-                    "quantity": 5
-                },
-                {
-                    "cakeId": 13,
-                    "quantity": 4
-                }
-            ],
-            "totalPrice": 36,
-            "timestamp": "2021-05-18T23:03:31.836Z"
-        },
-        {
-            "id": 49,
-            "customerId": 10,
-            "cakes": [
-                {
-                    "cakeId": 15,
-                    "quantity": 5
-                },
-                {
-                    "cakeId": 2,
-                    "quantity": 3
-                }
-            ],
-            "totalPrice": 23,
-            "timestamp": "2021-05-18T11:14:48.627Z"
-        }
-    ]
+      ],
+      "totalPrice": 16,
+      "id": 1
+    }
+  ]
 }
