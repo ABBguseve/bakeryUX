@@ -207,7 +207,8 @@ export default {
     currentUser: null,
     mail: "",
     password: "",
-    logInError: false
+    logInError: false,
+    screenWidth: 0
   }),
   mounted () {
     this.screenWidth = screen.width
