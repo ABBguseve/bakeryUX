@@ -12,7 +12,7 @@
         <v-btn
           class="navBtn text-capitalize"
           plain
-          to="/varor"
+          to="/"
           color="black"
         >Varor</v-btn>
         <v-btn
@@ -66,7 +66,7 @@
                 <v-btn
                   class="navBtn text-capitalize"
                   plain
-                  to="/varor"
+                  to="/"
                   color="black"
                 >Varor</v-btn>
               </v-list-item>
@@ -180,7 +180,7 @@
               rounded
               depressed
               small
-              color="primary"
+              color="negative"
               dark
               @click="logOut"
             >
@@ -207,13 +207,15 @@ export default {
     currentUser: null,
     mail: "",
     password: "",
-    logInError: false
+    logInError: false,
+    screenWidth: 0
   }),
   mounted () {
     axios
       .get("http://localhost:3000/customers")
       .then(response => (this.customers = response.data))
     this.currentUser = JSON.parse(localStorage.getItem("Storage_customer"))
+    this.screenWidth = screen.width
   },
   methods: {
     logIn () {
